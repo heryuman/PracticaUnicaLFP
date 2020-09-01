@@ -1,0 +1,28 @@
+[
+    {
+        "nombre":"Sofy Vazquez",
+        "edad": 28,
+        "activo": true,
+        "promedio": 80.6
+    },
+    {
+        "nombre":"Melany Rivera",
+        "edad": 23,
+        "activo": true,
+        "promedio": 60.56
+    },
+    {
+        "nombre":"Amilcar Cutzal",
+        "edad": 22,
+        "activo": false,
+        "promedio": 80.6
+    },
+    {
+        "nombre":"Antonio Morales",
+        "edad": 24,
+        "activo": true,
+        "promedio": 78.0
+    }
+    
+
+]

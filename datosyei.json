@@ -1,0 +1,27 @@
+[
+    {
+        "nombre":"Ana",
+        "edad": 20,
+        "activo": true,
+        "promedio": 98.6
+    },
+    {
+        "nombre":"Andrea",
+        "edad": 28,
+        "activo": true,
+        "promedio": 80.63
+    },
+    {
+        "nombre":"Brandon Paredes",
+        "edad": 35,
+        "activo": true,
+        "promedio": 65.23
+    },
+    {
+        "nombre":"Ludwin Perez",
+        "edad": 26,
+        "activo": true,
+        "promedio": 75.25
+    }
+
+]
