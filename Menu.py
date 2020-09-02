@@ -1,5 +1,6 @@
 import json
 import os
+import GenerarHTML
 loadfile=False
 lista = []
 
@@ -52,6 +53,10 @@ def Maximos(atribMax):
 
             i += 1
         print(max(proms))
+
+
+
+
 
 #Funcion para calcular los minimos
 def Minimos(atribMax):
@@ -293,13 +298,14 @@ def verificarOpcion():
 
              if verificar[0].lower()=="reportar":
                  if loadfile==True:
-                     print("")
+                     print("reportando")
                      verificar.pop(0)
-                     eleccion= " ".join(verificar)
-                     Maximos(eleccion)
+                     eleccion = " ".join(verificar)
+                     print(eleccion)
+                     GenerarHTML.html_create(lista,eleccion)
                  else:
                      print("No se ha cargado ningun archivo")
 
          except:
-             print("ERROR: comando invalido o dato inexisten, vuelva a intentarlo")
+             print("ERROR: comando invalido o dato inexisten, vuelva a intentarlo ploxca")
 
