@@ -1,15 +1,15 @@
 #generando html
 def html_create(lista,tope):
 
-    print(tope+"tam tope")
+
     if int(tope)>0 and int(tope) <= len(lista):
         template = open("HTML/template.html", "r")
         output = open("us.html", "w")
 
-        print(len(lista))
+
         i = 0
         while i < int(tope):
-            print()
+
             text = template.read().format(get_num="0", get_nombre="", get_edad="", get_activo="", get_promedio="")
             output.write(text)
 

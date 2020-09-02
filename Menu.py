@@ -307,5 +307,5 @@ def verificarOpcion():
                      print("No se ha cargado ningun archivo")
 
          except:
-             print("ERROR: comando invalido o dato inexisten, vuelva a intentarlo ploxca")
+             print("ERROR: comando invalido o dato inexisten, vuelva a intentarlo")
 
