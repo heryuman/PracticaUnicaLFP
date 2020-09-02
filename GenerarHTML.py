@@ -1,10 +1,11 @@
 #generando html
+import webbrowser
 def html_create(lista,tope):
 
 
     if int(tope)>0 and int(tope) <= len(lista):
         template = open("HTML/template.html", "r")
-        output = open("us.html", "w")
+        output = open("reportepractica.html", "w")
 
 
         i = 0
@@ -28,3 +29,4 @@ def html_create(lista,tope):
         output.writelines(" </html>")
         template.close()
         output.close()
+        webbrowser.open_new_tab('reportepractica.html')
